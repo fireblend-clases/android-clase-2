@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ui test</string>
+    <string name="agregar_nuevo_contacto">Agregar Nuevo Contacto</string>
+    <string name="lista_de_contactos">Lista de Contactos</string>
+</resources>

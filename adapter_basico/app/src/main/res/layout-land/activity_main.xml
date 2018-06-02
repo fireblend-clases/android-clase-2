@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fireblend.uitest.ui.MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="@string/lista_de_contactos"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:text="@string/agregar_nuevo_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <GridView
+        android:id="@+id/lista_contactos"
+        android:numColumns="2"
+        android:layout_below="@id/titulo"
+        android:layout_above="@id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
